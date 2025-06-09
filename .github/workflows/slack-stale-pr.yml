@@ -3,8 +3,9 @@ name: Post Stale PRs To Slack
 on:
   # run Monday 9am and on-demand
   workflow_dispatch:
-  schedule:
-    - cron:  '0 9 * * 1'
+  #temp disable schedule
+  #schedule:
+  #  - cron:  '0 9 * * 1'
 
 jobs:
   fetch-PRs:
